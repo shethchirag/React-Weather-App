@@ -1,7 +1,7 @@
 const options = {
   method: "GET",
   headers: {
-    "X-RapidAPI-Key": "8d235ebbdfmsh1163fd5b1bb752dp19530fjsn8e0d3c2d3790",
+    "X-RapidAPI-Key": import.meta.env.VITE_APP_API_KEY,
     "X-RapidAPI-Host": "weatherapi-com.p.rapidapi.com",
   },
 };
